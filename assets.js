@@ -34,7 +34,7 @@ const ASSETS = {
     STAN: String.raw`
         ,~~~~~,
        / .   . \
-      (   ___   )  < STAN THE FIGHTER >
+      (   ___   )     < STAN THE FIGHTER >
        \  '|'  /   "BUY SOMETHING OR GET OUT!"
         \_____/
         /|   |\
