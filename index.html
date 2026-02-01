@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description"
+        content="NOMAE - A retro text-based RPG adventure game inspired by classic Apple II games. Fight monsters, collect treasure, and explore dungeons!">
+    <meta name="keywords" content="RPG, retro game, text adventure, dungeon crawler, ASCII art">
+    <meta name="author" content="Sir Slothkins">
+    <meta property="og:title" content="NOMAE - A Retro RPG Adventure">
+    <meta property="og:description"
+        content="Fight monsters, collect treasure, and explore dungeons in this retro text-based RPG!">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="NOMAE - A Retro RPG Adventure">
+    <title>NOMAE - Sir Slothkins</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐉</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="crt-overlay"></div>
+    <div id="main-container">
+        <div id="monitor">
+            <pre id="screen-content"></pre>
+        </div>
+
+        <div id="input-area">
+            <div id="button-row-1" class="button-row"></div>
+            <div id="button-row-2" class="button-row"></div>
+            <div class="command-line">
+                <span class="prompt">]</span>
+                <input type="text" id="command-input" autocomplete="off" autocorrect="off" autocapitalize="off"
+                    spellcheck="false" autofocus>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets.js"></script>
+    <script src="game.js"></script>
+</body>
+
+</html>
