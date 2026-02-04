@@ -46,36 +46,36 @@ const ASSETS = {
         SLIME: [
             String.raw`
       _______
-     /  o o  \
+     /  o o  \  oozer
     |    ^    |
      \_______/
     `,
             String.raw`
        .---.
-      ( o o )
+      ( o o )   gooey
        \ - /
         '-'
     `,
             String.raw`
-       /~~~\
+       /~~~\  slimeo
       ( O O )
        \_~_/
     `
         ],
         SKELETON: [
             String.raw`
-      (o) (o)
+      (o) (o) peepers
        \   /
        /___\
       /| | |\
     `,
             String.raw`
-       [o_o]
+       [o_o]  baby skelly
        /| |\
        /| |\
     `,
             String.raw`
-       /x_x\
+       /x_x\.  lights out
       (  |  )
       /| | |\
     `
