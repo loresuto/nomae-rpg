@@ -57,7 +57,7 @@ const ASSETS = {
         '-'
     `,
             String.raw`
-       /~~~\  slimeo
+       /~~~\  slimeo loves hugs
       ( O O )
        \_~_/
     `
